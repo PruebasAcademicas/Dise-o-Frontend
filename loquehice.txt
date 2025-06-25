@@ -1,0 +1,17 @@
+Proyecto: EduPlataforma
+Actividad: Diseño Frontend - GA6-220501123-AA3-EV01
+
+Cordial saludos
+Este es un proyecto de práctica para diseñar una interfaz web responsiva usando Bootstrap 5. La idea era simular una plataforma educativa que ofrece cursos, contacto y secciones informativas.
+
+No tiene backend ni bases de datos, es solo la interfa
+
+Use
+HTML5
+Bootstrap 5
+FontAwesome
+CSS
+
+Todo el contenido es de ejemplo como los videos de YouTube y fue hecho con fines académicos.
+
+Desarrollado por: Luis Marulanda - Ficha 3070093

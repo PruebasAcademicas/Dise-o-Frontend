@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Frontend Modulo 6</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">EduPlataforma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- bienvenida -->
+    <header class="text-center py-5" id="inicio">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a EduPlataforma</h1>
+            <p class="lead">Tu aliado digital para acceder a formación de calidad.</p>
+        </div>
+    </header>
+
+    <!-- Quiénes somos -->
+    <section class="py-5" id="nosotros">
+        <div class="container">
+            <h2 class="mb-4">¿Quiénes somos?</h2>
+            <p>
+                Somos una plataforma dedicada a brindar acceso a contenidos educativos de forma clara, rápida y
+                accesible.
+                Nuestro objetivo es facilitar el aprendizaje desde cualquier lugar.
+            </p>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="py-5 bg-light" id="servicios">
+        <div class="container">
+            <h2 class="mb-4">Nuestros Servicios</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                    <h4>Cursos Virtuales</h4>
+                    <p>Accede a cursos interactivos desde tu computador o móvil.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-chalkboard-teacher fa-3x mb-3 text-primary"></i>
+                    <h4>Tutores en línea</h4>
+                    <p>Recibe acompañamiento personalizado de instructores certificados.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-certificate fa-3x mb-3 text-primary"></i>
+                    <h4>Certificaciones</h4>
+                    <p>Obtén certificados válidos al completar tus cursos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Cursos de youtube -->
+    <section class="py-5" id="cursos">
+        <div class="container">
+            <h2 class="mb-4 text-center">Ejemplos de Cursos</h2>
+            <div class="row">
+                <div class="col-md-6 video-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="Curso HTML"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h5 class="mt-3">Curso Básico de HTML</h5>
+                    <p>Aprende las bases del desarrollo web desde cero.</p>
+                </div>
+                <div class="col-md-6 video-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VPQICmxcXqE" title="Aprende Programación Web"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h5 class="mt-3">Curso CSS desde cero</h5>
+                    <p>Estiliza tus páginas web como un profesional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="py-5" id="contacto">
+        <div class="container">
+            <h2 class="mb-4">Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- el pie de página -->
+    <footer class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 EduPlataforma | Todos los derechos reservados.</p>
+            <div>
+                <a href="https://www.facebook.com/SENA/" target="_blank" class="text-white me-3">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://x.com/SENAComunica" target="_blank" class="text-white me-3">
+                    <i class="fa-brands fa-x-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.youtube.com/user/SENATV" target="_blank" class="text-white">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

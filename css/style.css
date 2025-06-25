@@ -1,0 +1,22 @@
+/* Fondo degrdado para el header */
+#inicio {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+}
+
+#inicio h1,
+#inicio p {
+    color: white;
+}
+
+/* fuente personalizada del título */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+#inicio h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Espacio para video */
+.video-card {
+    margin-bottom: 30px;
+}
